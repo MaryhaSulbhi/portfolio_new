@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryha Sulbhi | Data Scientist & AI Enthusiast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .mono { font-family: 'Fira Code', monospace; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(90deg, #22d3ee, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .project-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px -15px rgba(34, 211, 238, 0.2); }
+        @keyframes fade-in-up {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-up { animation: fade-in-up 0.8s ease-out forwards; }
+    </style>
+</head>
+<body class="bg-[#0f172a] text-slate-300 selection:bg-cyan-500/30">
+
+    <nav class="fixed w-full z-50 glass">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold gradient-text mono">&lt;MS /&gt;</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
+                <a href="#about" class="hover:text-cyan-400 transition">About</a>
+                <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+            </div>
+            <a href="mailto:maryhasulbhi67@gmail.com" class="px-5 py-2 border border-cyan-500/50 text-cyan-400 rounded-full text-sm hover:bg-cyan-500/10 transition">Let's Talk</a>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex items-center pt-20 px-6 overflow-hidden relative">
+        <div class="absolute top-40 -left-20 w-72 h-72 bg-cyan-500/10 rounded-full blur-[120px]"></div>
+        <div class="absolute bottom-20 -right-20 w-96 h-96 bg-indigo-500/10 rounded-full blur-[120px]"></div>
+        
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="animate-up">
+                <p class="mono text-cyan-400 mb-4 tracking-tighter">Hi, my name is</p>
+                <h1 class="text-6xl md:text-8xl font-bold text-white mb-6">Maryha Sulbhi.</h1>
+                <h2 class="text-3xl md:text-5xl font-semibold text-slate-400 mb-8">I build intelligence with data.</h2>
+                <p class="text-lg text-slate-400 max-w-lg mb-10 leading-relaxed">
+                    Aspiring Data Scientist specializing in <span class="text-white">Machine Learning</span> and <span class="text-white">AI-driven applications</span>. I turn complex datasets into interactive stories.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#projects" class="px-8 py-4 bg-cyan-600 text-white rounded-lg font-semibold hover:bg-cyan-500 transition shadow-lg shadow-cyan-900/20">View My Work</a>
+                    <a href="Maryha_Resume (3).pdf" class="px-8 py-4 glass text-white rounded-lg font-semibold hover:bg-slate-800 transition">My CV</a>
+                </div>
+            </div>
+            <div class="hidden md:block animate-up" style="animation-delay: 0.2s;">
+                <div class="relative group">
+                    <div class="absolute inset-0 bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+                    <div class="relative glass rounded-2xl p-4 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" alt="Data Science Visual" class="rounded-xl grayscale hover:grayscale-0 transition duration-500">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-32 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex items-center space-x-4 mb-12">
+                <h2 class="text-3xl font-bold text-white">01. About Me</h2>
+                <div class="h-[1px] bg-slate-700 flex-grow"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="md:col-span-2 text-lg leading-relaxed space-y-6">
+                    <p>
+                        I am a Computer Science undergraduate with a laser focus on <span class="text-cyan-400">Data Science</span>.  My journey involves bridging the gap between raw data and actionable insights through Python, SQL, and Deep Learning. 
+                    </p>
+                    <p>
+                         From building <span class="text-cyan-400">BCI Multimodal AI systems</span> to optimizing HR attrition models, I thrive on solving real-world problems with data-driven decision-making. 
+                    </p>
+                    <div class="bg-slate-800/50 p-6 rounded-xl border border-slate-700">
+                        <h4 class="text-white font-semibold mb-2">Education</h4>
+                        <p class="text-sm">B.Tech in CSE (Data Science) • Dr. A.P.J.  Abdul Kalam Technical University </p>
+                        <p class="text-sm text-cyan-400">Expected Graduation: June 2027 |  GPA: 7.5/10 </p>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="glass p-6 rounded-xl border-t-2 border-cyan-500">
+                        <h4 class="text-white font-bold mb-4 flex items-center"><i data-lucide="award" class="mr-2 text-cyan-400"></i> Certifications</h4>
+                        <ul class="text-sm space-y-3">
+                             <li>• Prompt Engineering (LinkedIn) </li>
+                             <li>• DataOps Methodology (IBM) </li>
+                             <li>• Data Analytics (Deloitte) </li>
+                             <li>• Data Viz (Tata) </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-32 bg-slate-900/50 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex items-center space-x-4 mb-20 justify-end">
+                <div class="h-[1px] bg-slate-700 flex-grow max-w-xs"></div>
+                <h2 class="text-3xl font-bold text-white">02. Technical Arsenal</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-8 glass rounded-2xl hover:border-cyan-500/50 transition group">
+                    <i data-lucide="code-2" class="mb-6 text-cyan-400 group-hover:scale-110 transition"></i>
+                    <h3 class="text-white font-bold mb-4">Programming</h3>
+                    <div class="flex flex-wrap gap-2 text-xs mono">
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Python</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Java</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">c</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">C++</span>
+                    </div>
+                </div>
+                <div class="p-8 glass rounded-2xl hover:border-indigo-500/50 transition group">
+                    <i data-lucide="brain-circuit" class="mb-6 text-indigo-400 group-hover:scale-110 transition"></i>
+                    <h3 class="text-white font-bold mb-4">Data & AI/ML</h3>
+                    <div class="flex flex-wrap gap-2 text-xs mono">
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Pandas</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">NumPy</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">OpenAI</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Scikit-learn</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">CNN</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">TensorFlow</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">EDA</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">NLP</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">PyTorch</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Matplotlib</span>
+
+
+                    </div>
+                </div>
+                <div class="p-8 glass rounded-2xl hover:border-indigo-500/50 transition group">
+                    <i data-lucide="brain-circuit" class="mb-6 text-indigo-400 group-hover:scale-110 transition"></i>
+                    <h3 class="text-white font-bold mb-4">Web Technologies</h3>
+                    <div class="flex flex-wrap gap-2 text-xs mono">
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">HTML5</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">CSS3</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Flask</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">JavaScript</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Node.js</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">React.js</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Express.js</span>
+
+
+                    </div>
+                </div>
+                <div class="p-8 glass rounded-2xl hover:border-blue-500/50 transition group">
+                    <i data-lucide="bar-chart-3" class="mb-6 text-blue-400 group-hover:scale-110 transition"></i>
+                    <h3 class="text-white font-bold mb-4">Visualization</h3>
+                    <div class="flex flex-wrap gap-2 text-xs mono">
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Tableau</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Power BI</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Matplotlib</span>
+                    </div>
+                </div>
+                <div class="p-8 glass rounded-2xl hover:border-blue-500/50 transition group">
+                    <i data-lucide="bar-chart-3" class="mb-6 text-blue-400 group-hover:scale-110 transition"></i>
+                    <h3 class="text-white font-bold mb-4">Tools</h3>
+                    <div class="flex flex-wrap gap-2 text-xs mono">
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Git</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Git Hub</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">VS Code</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">Streamlit</span>
+                    </div>
+                </div>
+                <div class="p-8 glass rounded-2xl hover:border-emerald-500/50 transition group">
+                    <i data-lucide="database" class="mb-6 text-emerald-400 group-hover:scale-110 transition"></i>
+                    <h3 class="text-white font-bold mb-4">Databases</h3>
+                    <div class="flex flex-wrap gap-2 text-xs mono">
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">PostgreSQL</span>
+                        <span class="px-3 py-1 bg-slate-800 rounded-full">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex items-center space-x-4 mb-16">
+                <h2 class="text-3xl font-bold text-white">03. Featured Projects</h2>
+                <div class="h-[1px] bg-slate-700 flex-grow"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="project-card group glass rounded-2xl overflow-hidden transition-all duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-cyan-500/20 group-hover:bg-transparent transition duration-500"></div>
+                        <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=600" alt="BCI System" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                             <h3 class="text-xl font-bold text-white">BCI Multimodal AI  </h3>
+                            <a href="https://github.com/MaryhaSulbhi/BCI_Multimodal_AI" class="text-cyan-400 hover:text-white"><i data-lucide="github"></i></a>
+                        </div>
+                        <div class="flex justify-between items-start mb-4">
+                         <p class="text-sm text-slate-400 mb-6 line-clamp-3">Integrated neural signal and visual data for intelligent prediction using CNN-based deep learning. </p>
+                        <div class="flex flex-wrap gap-2 text-[10px] mono text-cyan-400">
+                            <span>Python</span><span>CNN</span><span>Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card group glass rounded-2xl overflow-hidden transition-all duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-indigo-500/20 group-hover:bg-transparent transition duration-500"></div>
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600" alt="HR Analytics" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                             <h3 class="text-xl font-bold text-white">HR Analytics Dashboard </h3>
+                            <a href="https://github.com/MaryhaSulbhi/hr_data_dashboard" class="text-cyan-400 hover:text-white"><i data-lucide="github" size="20"></i></a>
+                        </div>
+                        <p class="text-sm text-slate-400 mb-6 line-clamp-3">Interactive Tableau dashboard analyzing employee attrition.  Reduced manual reporting by 40%. </p>
+                        <div class="flex flex-wrap gap-2 text-[10px] mono text-indigo-400">
+                            <span>Tableau</span><span>SQL</span><span>Excel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card group glass rounded-2xl overflow-hidden transition-all duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-emerald-500/20 group-hover:bg-transparent transition duration-500"></div>
+                        <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=600" alt="PDF AI" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                             <h3 class="text-xl font-bold text-white">PDF Question Answering </h3>
+                            <a href="https://github.com/MaryhaSulbhi/AI" class="text-cyan-400 hover:text-white"><i data-lucide="github"></i></a>
+                        </div>
+                         <p class="text-sm text-slate-400 mb-6 line-clamp-3">NLP application using LLaMA-3 for semantic query handling and document parsing. </p>
+                        <div class="flex flex-wrap gap-2 text-[10px] mono text-emerald-400">
+                            <span>LLaMA-3</span><span>NLP</span><span>Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card group glass rounded-2xl overflow-hidden transition-all duration-300">
+    <div class="h-48 overflow-hidden relative">
+        <div class="absolute inset-0 bg-blue-500/20 group-hover:bg-transparent transition duration-500"></div>
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600" alt="HR Analytics" class="w-full h-full object-cover">
+    </div>
+    <div class="p-8">
+        <div class="flex justify-between items-start mb-4">
+            <h3 class="text-xl font-bold text-white">Analytics Insight</h3>
+            <div class="flex space-x-3">
+                <a href="https://public.tableau.com/app/profile/maryha.sulbhi/viz/HRAnalysis_17541678451100/HRSummary" target="_blank" class="text-cyan-400 hover:text-white" title="View Dashboard">
+                    <i data-lucide="layout-dashboard" size="20"></i>
+                </a>
+            </div>
+        </div>
+        <p class="text-sm text-slate-400 mb-6">
+            Analyzed employee attrition and demographics. Developed custom KPI metrics and calculated fields to identify key retention drivers.
+        </p>
+        <div class="flex flex-wrap gap-2 text-[10px] mono text-blue-400">
+            <span>Tableau</span><span>Data Modeling</span><span>HR Metrics</span><span>SQL</span>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-32 px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="mono text-cyan-400 text-sm mb-4">04. What's Next?</h2>
+            <h3 class="text-5xl font-bold text-white mb-8">Get In Touch</h3>
+            <p class="text-slate-400 mb-12">
+                I'm currently looking for Data Science opportunities. Whether you have a question or just want to say hi, my inbox is always open!
+            </p>
+            <div class="flex justify-center space-x-6 mb-12">
+                <a href="mailto:maryhasulbhi67@gmail.com" class="p-4 glass rounded-full text-cyan-400 hover:text-white transition group">
+                    <i data-lucide="mail"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/maryha-sulbhi-5406ab319/" target="_blank" class="p-4 glass rounded-full text-cyan-400 hover:text-white transition group">
+                    <i data-lucide="linkedin"></i>
+                </a>
+                <a href="#" class="p-4 glass rounded-full text-cyan-400 hover:text-white transition group">
+                    <i data-lucide="github"></i>
+                </a>
+            </div>
+            <a href="mailto:maryhasulbhi67@gmail.com" class="px-12 py-5 border-2 border-cyan-500 text-cyan-400 font-bold rounded-lg hover:bg-cyan-500/10 transition">Say Hello</a>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-slate-800/50 text-center">
+        <p class="mono text-xs text-slate-500 mb-4">Designed & Built by Maryha Sulbhi</p>
+        <p class="text-[10px] text-slate-600">Greater Noida, India |  © 2026 </p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
